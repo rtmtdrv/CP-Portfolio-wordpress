@@ -1,0 +1,8 @@
+#page-template {
+
+}
+
+#page-template .container {
+  padding: 0 40px;
+  background-color: red;
+}
