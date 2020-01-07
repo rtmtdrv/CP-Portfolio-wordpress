@@ -5,7 +5,7 @@
     <title></title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/main.css">
   </head>
   <body>
     <header>
@@ -350,7 +350,7 @@
       <h6>Web Developer</h6>
     </footer>
 
-    <script src="js/app.js"></script>
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/app.js"></script>
 
 
   </body>
